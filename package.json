@@ -6,7 +6,7 @@
     "test": "npx cucumber-js",
     "test:tag": "npx cucumber-js --tags @sep11",
     "test:tag:dry": "npx cucumber-js --tags @sep11 --dry-run",
-    "test:smoke": "npx cucumber-js --tags @smoke --headless",
+    "test:smoke": "npx cucumber-js --tags @smoke",
     "Windows-open:report": "start reports/cucumber-report.html"
   },
   "keywords": [],
